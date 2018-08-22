@@ -10,8 +10,12 @@ Easy
 595. Big Countries
     Your runtime beats 14.01 % of mysql submissions.
 707. Design Linked List
-    Your runtime beats 95.40 % of java submissions.    
-	
+    Your runtime beats 95.40 % of java submissions.
+804. Unique Morse Code Words
+    Your runtime beats 82.98 % of java submissions.    
+633. Sum of Square Numbers
+
 Medium
+
 
 Hard
