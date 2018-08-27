@@ -2,7 +2,7 @@ package Easy;
 
 import java.util.HashSet;
 
-class UniqueMorseCodeWords {
+class Q804UniqueMorseCodeWords {
     public int uniqueMorseRepresentations(String[] words) {
         String[] morseCharString = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
         HashSet<String> set = new HashSet<String>();
