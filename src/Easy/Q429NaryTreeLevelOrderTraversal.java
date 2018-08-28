@@ -5,6 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Q429NaryTreeLevelOrderTraversal {
+/*
     public static List<List<Integer>> levelOrder(Node root) {
         if (root == null) {
             return new LinkedList<List<Integer>>();
@@ -24,9 +25,10 @@ public class Q429NaryTreeLevelOrderTraversal {
 
         return toReturn;
     }
+*/
 
 
-    public static List<List<Integer>> levelOrder2(Node root) {
+    public static List<List<Integer>> levelOrder(Node root) {
         if (root == null) {
             return new LinkedList<List<Integer>>();
         }
