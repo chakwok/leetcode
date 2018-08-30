@@ -1,4 +1,4 @@
-package Easy;
+package Medium;
 
 public class Q807MaxIncreasetoKeepCitySkyline {
 

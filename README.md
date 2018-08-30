@@ -1,9 +1,8 @@
 # leetcode
-Total Problem Solved: 8
-Easy: 8
-Medium: 0
+Total Problem Solved: 12
+Easy: 10
+Medium: 2
 Hard: 0
-
 
 
 Easy
@@ -23,9 +22,17 @@ Easy
 	Your runtime beats 21.44 % of java submissions.
 429. N-ary Tree Level Order Traversal
 	Your runtime beats 86.20 % of java submissions.
+617. Merge Two Binary Trees
+	Your runtime beats 96.79 % of java submissions.
+690. Employee Importance
+	Your runtime beats 41.82 % of java submissions.
 	
 
 Medium
+807. Max Increase to Keep City Skyline
+	Your runtime beats 25.32 % of java submissions.
+535. Encode and Decode TinyURL
+	Your runtime beats 51.66 % of java submissions.
 
 
 Hard
