@@ -1,11 +1,12 @@
 # leetcode
-Total Problem Solved: 14
-* Easy: 11
-* Medium: 3
+**Total Problem Solved: 16**
+* Easy: 12
+* Medium: 4
 * Hard: 0
 
 
 **Easy**
+
 1. Two Sum: Your runtime beats 99.86 % of java submissions.
 
 771. Jewels and Stones: Your runtime beats 16.93 % of java submissions.
@@ -28,13 +29,18 @@ Total Problem Solved: 14
 
 852. Peak Index in a Mountain Array
 
+717. 1-bit and 2-bit Characters
+
 	
 
 **Medium**
+
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
 
 535. Encode and Decode TinyURL: Your runtime beats 51.66 % of java submissions.
 
 162. Find Peak Element
+
+89. Gray Code
 
 **Hard**

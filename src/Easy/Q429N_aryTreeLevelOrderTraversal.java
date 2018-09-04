@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Q429NaryTreeLevelOrderTraversal {
+public class Q429N_aryTreeLevelOrderTraversal {
 /*
     public static List<List<Integer>> levelOrder(Node root) {
         if (root == null) {
