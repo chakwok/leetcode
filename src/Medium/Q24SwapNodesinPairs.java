@@ -24,6 +24,28 @@ public class Q24SwapNodesinPairs {
         return headPointer;
     }
 
+    //recursive approach
+    public static ListNode swapPairsRec(ListNode head) {
+        //return swapPair
+        return swapPairsHelper(head);
+    }
+
+    public static ListNode swapPairsHelper(ListNode curr) {
+        if(curr == null) {
+            return null;
+        } else if (curr.next == null) {
+            return curr;
+        }
+
+        ListNode second = curr;
+        curr = curr.next;
+        second.next = curr.next;
+        curr.next = second;
+
+        second.next = swapPairsHelper(second.next);
+        return curr;
+    }
+
 
 
     private static class ListNode {
@@ -54,7 +76,7 @@ public class Q24SwapNodesinPairs {
         n2.next = n3;
         n3.next = n4;
         n4.next = n5;
-        System.out.println(swapPairs(n1));
+        System.out.println(swapPairsRec(n1));
     }
 }
 

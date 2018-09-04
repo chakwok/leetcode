@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 16**
-* Easy: 12
-* Medium: 4
+**Total Problem Solved: 19**
+* Easy: 13
+* Medium: 6
 * Hard: 0
 
 
@@ -31,7 +31,9 @@
 
 717. 1-bit and 2-bit Characters
 
-	
+xx876. Middle of the Linked List	
+
+806. Number of Lines To Write String
 
 **Medium**
 
@@ -41,6 +43,12 @@
 
 162. Find Peak Element
 
-89. Gray Code
+xx89. Gray Code
+
+725. Split Linked List in Parts
+
+24. Swap Nodes in Pairs
+
+92. Reverse Linked List II
 
 **Hard**
