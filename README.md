@@ -1,6 +1,6 @@
 # leetcode
-**Total Problem Solved: 24**
-* Easy: 18
+**Total Problem Solved: 26**
+* Easy: 20
 * Medium: 6
 * Hard: 0
 
@@ -31,7 +31,7 @@
 
 717. 1-bit and 2-bit Characters
 
-xx876. Middle of the Linked List	
+876. Middle of the Linked List	
 
 806. Number of Lines To Write String
 
@@ -43,7 +43,7 @@ xx876. Middle of the Linked List
 
 xx653. Two Sum IV - Input is a BST
 
-xx283. Move Zeroes
+283. Move Zeroes
 
 412. Fizz Buzz
 
@@ -64,5 +64,7 @@ xx89. Gray Code
 24. Swap Nodes in Pairs
 
 92. Reverse Linked List II
+
+xx529. Minesweeper
 
 **Hard**

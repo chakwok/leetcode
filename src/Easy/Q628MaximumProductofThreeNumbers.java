@@ -15,8 +15,9 @@ public class Q628MaximumProductofThreeNumbers {
                     num = temp;
                 }
             }
+        }
 
-
+        for(int num: nums) {
             for(int i = 0; i < smallTwo.length; i++) {
                 if(num < smallTwo[i]) {
                     temp = smallTwo[i];
@@ -32,6 +33,7 @@ public class Q628MaximumProductofThreeNumbers {
     }
 
     public static void main(String[] args) {
-        maximumProduct(new int[] {-1, -2, -3});
+        int ans = maximumProduct(new int[] {-1, -2, -3});
+        System.out.println(ans);
     }
 }
