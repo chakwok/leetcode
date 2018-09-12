@@ -1,6 +1,6 @@
 # leetcode
-**Total Problem Solved: 19**
-* Easy: 13
+**Total Problem Solved: 24**
+* Easy: 18
 * Medium: 6
 * Hard: 0
 
@@ -34,6 +34,20 @@
 xx876. Middle of the Linked List	
 
 806. Number of Lines To Write String
+
+561. Array Partition I
+
+66. Plus One
+
+167. Two Sum II - Input array is sorted
+
+xx653. Two Sum IV - Input is a BST
+
+xx283. Move Zeroes
+
+412. Fizz Buzz
+
+628. Maximum Product of Three Numbers
 
 **Medium**
 
