@@ -1,6 +1,6 @@
 # leetcode
-**Total Problem Solved: 26**
-* Easy: 20
+**Total Problem Solved: 30**
+* Easy: 24
 * Medium: 6
 * Hard: 0
 
@@ -48,6 +48,15 @@ xx653. Two Sum IV - Input is a BST
 412. Fizz Buzz
 
 628. Maximum Product of Three Numbers
+
+27. Remove Element
+
+206. Reverse Linked List
+
+237. Delete Node in a Linked List
+
+203. Remove Linked List Elements
+
 
 **Medium**
 

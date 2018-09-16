@@ -2,6 +2,15 @@ package Medium;
 
 public class Q92ReverseLinkedListII {
     public static ListNode reverseBetween(ListNode head, int m, int n) {
+        if(head == null) {
+            return null;
+        }
+
+        ListNode newHead;
+
+        return null;
+    }
+/*    public static ListNode reverseBetween(ListNode head, int m, int n) {
         ListNode dummy = new ListNode(-37);
         dummy.next = head;
 
@@ -16,7 +25,7 @@ public class Q92ReverseLinkedListII {
         return head;
     }
 
-    /**Return the last Node of the reversed list. The old first node is pointing to n+1th node*/
+    *//**Return the last Node of the reversed list. The old first node is pointing to n+1th node*//*
     private static ListNode reverseHelper(ListNode curr, int k) {
         if(k == 0) {
             return curr;
@@ -25,7 +34,7 @@ public class Q92ReverseLinkedListII {
         reverseHelper(curr.next, k - 1).next = curr;
         return curr;
 
-    }
+    }*/
 
     private static class ListNode {
         int val;
@@ -55,14 +64,14 @@ public class Q92ReverseLinkedListII {
         n2.next = n3;
         n3.next = n4;
         n4.next = n5;
-        System.out.println(reverse(n1));
+        //System.out.println(reverse(n1));
     }
 
-    public static ListNode reverse(ListNode curr) {
+/*    public static ListNode reverse(ListNode curr) {
         if (curr.next == null) {
             return curr;
         }
 
         return reverse(curr.next).next = curr;
-    }
+    }*/
 }
