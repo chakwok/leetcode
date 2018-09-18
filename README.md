@@ -1,8 +1,8 @@
 # leetcode
-**Total Problem Solved: 30**
-* Easy: 24
-* Medium: 6
-* Hard: 0
+**Total Problem Solved: 35**
+* Easy: 26
+* Medium: 8
+* Hard: 1
 
 
 **Easy**
@@ -57,6 +57,10 @@ xx653. Two Sum IV - Input is a BST
 
 203. Remove Linked List Elements
 
+83. Remove Duplicates from Sorted List
+
+867. Transpose Matrix
+
 
 **Medium**
 
@@ -76,4 +80,17 @@ xx89. Gray Code
 
 xx529. Minesweeper
 
+82. Remove Duplicates from Sorted List II
+
+153. Find Minimum in Rotated Sorted Array
+
 **Hard**
+
+154. Find Minimum in Rotated Sorted Array II
+
+
+
+=============== Log ===============
+2018-09-16: 24-6-0
+2018-09-17: 25-7-02018-09-18: 26-8-1
+2018-09-18: 26-8-1

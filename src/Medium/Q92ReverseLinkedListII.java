@@ -1,15 +1,49 @@
 package Medium;
 
+
 public class Q92ReverseLinkedListII {
     public static ListNode reverseBetween(ListNode head, int m, int n) {
-        if(head == null) {
-            return null;
+        ListNode sentinel = new ListNode(-37);
+        sentinel.next = head;
+
+        ListNode ptrOneBefore = sentinel;
+        ListNode ptrOneAfter = sentinel;
+
+        for(int i = 0; i < n; i++) {
+            if(i < m - 1){
+                ptrOneBefore = ptrOneBefore.next;
+            }
+            ptrOneAfter = ptrOneAfter.next;
+        }
+        ptrOneAfter = ptrOneAfter.next;
+
+        ListNode prevHead = ptrOneBefore.next; //New reverse tail
+        ListNode prevTail = reverseHelper(ptrOneBefore.next, n - m); //reverse is done after this line
+
+        ptrOneBefore.next = prevTail;
+        prevHead.next = ptrOneAfter;
+
+//        prevHead.next = ptrOneAfter;
+//        prevHead.next = prevTail;
+
+        return sentinel.next;
+    }
+    /**
+     * @Return: return prev tail.
+     * */
+    public static ListNode reverseHelper(ListNode node, int toReverse) {
+        //Need to use the property of prev.next of stack trace
+        //base case num = 0
+        if(toReverse == 0) {
+            return node;
         }
 
-        ListNode newHead;
-
-        return null;
+        ListNode toReturn = reverseHelper(node.next, toReverse - 1);
+        node.next.next = node;
+        node.next = null;
+        return toReturn;
     }
+
 /*    public static ListNode reverseBetween(ListNode head, int m, int n) {
         ListNode dummy = new ListNode(-37);
         dummy.next = head;
@@ -35,6 +69,31 @@ public class Q92ReverseLinkedListII {
         return curr;
 
     }*/
+
+
+    public static ListNode reverseBetweenIte(ListNode head, int m, int n) {
+        if (head == null) return null;
+        ListNode dummy = new ListNode(0); // create a dummy node to mark the head of this list
+        dummy.next = head;
+        ListNode pre = dummy; // make a pointer pre as a marker for the node before reversing
+        for (int i = 0; i < m - 1; i++) {
+            pre = pre.next;
+        }
+
+        ListNode start = pre.next; // a pointer to the beginning of a sub-list that will be reversed
+        ListNode then = start.next; // a pointer to a node that will be reversed
+
+        for(int i=0; i<n-m; i++)
+        {
+            start.next = then.next;
+            then.next = pre.next;
+            pre.next = then;
+            then = start.next;
+        }
+
+        return dummy.next;
+    }
+
 
     private static class ListNode {
         int val;
@@ -64,7 +123,7 @@ public class Q92ReverseLinkedListII {
         n2.next = n3;
         n3.next = n4;
         n4.next = n5;
-        //System.out.println(reverse(n1));
+        System.out.println(reverseBetweenIte(n1, 1, 5));
     }
 
 /*    public static ListNode reverse(ListNode curr) {
