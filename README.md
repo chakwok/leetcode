@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 35**
-* Easy: 26
-* Medium: 8
+**Total Problem Solved: 39**
+* Easy: 27
+* Medium: 11
 * Hard: 1
 
 
@@ -61,6 +61,8 @@ xx653. Two Sum IV - Input is a BST
 
 867. Transpose Matrix
 
+605. Can Place Flowers
+
 
 **Medium**
 
@@ -84,6 +86,12 @@ xx529. Minesweeper
 
 153. Find Minimum in Rotated Sorted Array
 
+33. Search in Rotated Sorted Array
+
+495. Teemo Attacking
+
+56. Merge Intervals
+
 **Hard**
 
 154. Find Minimum in Rotated Sorted Array II
@@ -92,5 +100,7 @@ xx529. Minesweeper
 
 =============== Log ===============
 2018-09-16: 24-6-0
-2018-09-17: 25-7-02018-09-18: 26-8-1
+2018-09-17: 25-7-0
 2018-09-18: 26-8-1
+2018-09-19: 27-10-1
+2018-09-19: 27-11-1
