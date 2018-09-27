@@ -1,8 +1,8 @@
 # leetcode
-**Total Problem Solved: 39**
-* Easy: 27
+**Total Problem Solved: 42**
+* Easy: 29
 * Medium: 11
-* Hard: 1
+* Hard: 2
 
 
 **Easy**
@@ -63,6 +63,9 @@ xx653. Two Sum IV - Input is a BST
 
 605. Can Place Flowers
 
+905. Sort Array By Parity
+
+896. Monotonic Array
 
 **Medium**
 
@@ -90,11 +93,17 @@ xx529. Minesweeper
 
 495. Teemo Attacking
 
-56. Merge Intervals
+xx56. Merge Intervals
+
+735. Asteroid Collision
 
 **Hard**
 
 154. Find Minimum in Rotated Sorted Array II
+
+25. Reverse Nodes in k-Group
+
+xx316. Remove Duplicate Letters
 
 
 
@@ -104,3 +113,5 @@ xx529. Minesweeper
 2018-09-18: 26-8-1
 2018-09-19: 27-10-1
 2018-09-19: 27-11-1
+2018-09-19: 27-10-2
+2018-09-27: 29-11-2
