@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 45**
-* Easy: 31
-* Medium: 12
+**Total Problem Solved: 47**
+* Easy: 32
+* Medium: 13
 * Hard: 2
 
 
@@ -71,6 +71,8 @@ xx653. Two Sum IV - Input is a BST
 
 700. Search in a Binary Search Tree
 
+88. Merge Sorted Array
+
 **Medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -103,6 +105,8 @@ xx56. Merge Intervals
 
 75. Sort Colors
 
+34. Find First and Last Position of Element in Sorted Array
+
 **Hard**
 
 154. Find Minimum in Rotated Sorted Array II
@@ -122,4 +126,4 @@ xx316. Remove Duplicate Letters
 2018-09-27: 29-11-2
 2018-10-14: 31-11-2
 2018-10-20: 31-12-2
-2018-10-22: 31-12-2
+2018-10-25: 32-13-2
