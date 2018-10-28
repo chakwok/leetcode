@@ -81,6 +81,7 @@ _268. Missing Number
 
 _922. Sort Array By Parity II
 
+
 **Medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -127,6 +128,7 @@ _23. Merge k Sorted Lists
 
 
 
+
 =============== Log ===============
 * 2018-09-16: 24-6-0
 * 2018-09-17: 25-7-0
@@ -136,6 +138,5 @@ _23. Merge k Sorted Lists
 * 2018-09-27: 29-11-2
 * 2018-10-14: 31-11-2
 * 2018-10-20: 31-12-2
-* 2018-10-25: 32-13-2
 * 2018-10-25: 36-13-2
 * 2018-10-28: 36-13-3
