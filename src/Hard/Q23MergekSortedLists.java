@@ -194,6 +194,6 @@ public class Q23MergekSortedLists {
 
     public static void main(String[] args) {
         ListNode[] lists = new ListNode[] {ListNode.of(1,4,5), ListNode.of(1,3,4), ListNode.of(2,6)};
-        System.out.println(mergeKLists(lists));
+        System.out.println(mergeKListsSlow(lists));
     }
 }

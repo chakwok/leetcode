@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 52**
-* Easy: 36
-* Medium: 13
+**Total Problem Solved: 54**
+* Easy: 37
+* Medium: 14
 * Hard: 3
 
 
@@ -81,6 +81,7 @@ _268. Missing Number
 
 _922. Sort Array By Parity II
 
+_686. Repeated String Match
 
 **Medium**
 
@@ -116,6 +117,8 @@ _75. Sort Colors
 
 _34. Find First and Last Position of Element in Sorted Array
 
+_147. Insertion Sort List
+
 **Hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -129,6 +132,7 @@ _23. Merge k Sorted Lists
 
 
 
+
 =============== Log ===============
 * 2018-09-16: 24-6-0
 * 2018-09-17: 25-7-0
@@ -138,5 +142,7 @@ _23. Merge k Sorted Lists
 * 2018-09-27: 29-11-2
 * 2018-10-14: 31-11-2
 * 2018-10-20: 31-12-2
+* 2018-10-25: 32-13-2
 * 2018-10-25: 36-13-2
-* 2018-10-28: 36-13-3
+* 2018-10-28: 37-13-3
+* 2018-10-29: 37-14-3
