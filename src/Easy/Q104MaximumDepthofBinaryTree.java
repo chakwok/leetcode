@@ -1,8 +1,13 @@
 package Easy;
 
 public class Q104MaximumDepthofBinaryTree {
-    public int maxDepth(TreeNode root) {
-        return 0 ;
+    public static int maxDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int maxLeft = maxDepth(root.left) + 1;
+        int maxRight = maxDepth(root.right) + 1;
+        return Math.max(maxLeft, maxRight) ;
     }
 
     private static class TreeNode {
@@ -18,6 +23,11 @@ public class Q104MaximumDepthofBinaryTree {
             }
             return toReturn;
         }
+
+        @Override
+        public String toString() {
+            return String.format("[%s]", val);
+        }
     }
 
     public static void main(String[] args) {
@@ -28,6 +38,6 @@ public class Q104MaximumDepthofBinaryTree {
         nodeList[1].right = nodeList[4];
         nodeList[2].right = nodeList[6];
 
-        System.out.println();
+        System.out.println(maxDepth(nodeList[0]));
     }
 }

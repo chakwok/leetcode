@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 54**
-* Easy: 37
-* Medium: 14
+**Total Problem Solved: 56**
+* Easy: 38
+* Medium: 15
 * Hard: 3
 
 
@@ -83,6 +83,8 @@ _922. Sort Array By Parity II
 
 _686. Repeated String Match
 
+_104. Maximum Depth of Binary Tree
+
 **Medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -119,6 +121,8 @@ _34. Find First and Last Position of Element in Sorted Array
 
 _147. Insertion Sort List
 
+_148. Sort List
+
 **Hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -146,3 +150,4 @@ _23. Merge k Sorted Lists
 * 2018-10-25: 36-13-2
 * 2018-10-28: 37-13-3
 * 2018-10-29: 37-14-3
+* 2018-11-06: 38-15-3

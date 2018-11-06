@@ -12,7 +12,7 @@ public class Q25ReverseNodesink_Group {
         ListNode prevPtr = sentinel;
         ListNode nextPtr;
 
-        while((nextPtr = getKthChild(prevPtr, k)) != null) {
+        while ((nextPtr = getKthChild(prevPtr, k)) != null) {
             reverseBetween(prevPtr, k);
             prevPtr = nextPtr;
             //prevPtr = getKthChild(prevPtr, k);
@@ -23,15 +23,15 @@ public class Q25ReverseNodesink_Group {
     }
 
     private static ListNode getKthChild(ListNode node, int k) {
-        if(node == null) {
+        if (node == null) {
             return null;
         }
 
         ListNode firstNode = node.next;
 
-        while(k > 0) {
+        while (k > 0) {
             node = node.next;
-            if(node == null) {
+            if (node == null) {
                 return null;
             }
 
@@ -44,8 +44,7 @@ public class Q25ReverseNodesink_Group {
         ListNode start = prev.next; // a pointer to the beginning of a sub-list that will be reversed
         ListNode then = start.next; // a pointer to a node that will be reversed
 
-        for(int i=0; i<k - 1; i++)
-        {
+        for (int i = 0; i < k - 1; i++) {
             start.next = then.next;
             then.next = prev.next;
             prev.next = then;
@@ -69,13 +68,16 @@ public class Q25ReverseNodesink_Group {
     private static class ListNode {
         int val;
         ListNode next;
-        ListNode(int x) { val = x; }
+
+        ListNode(int x) {
+            val = x;
+        }
 
         @Override
         public String toString() {
             String toReturn = "[" + Integer.toString(val);
             ListNode ptr = next;
-            while(ptr != null) {
+            while (ptr != null) {
                 toReturn += "," + ptr.val;
                 ptr = ptr.next;
             }

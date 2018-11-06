@@ -9,9 +9,9 @@ public class Q23MergekSortedLists {
     //runtime: O(nlnk), space: O(1)
     public static ListNode mergeKLists(ListNode[] lists) {
         //terminating case
-        if(lists.length == 0) {
+        if (lists.length == 0) {
             return null;
-        } else if(lists.length == 1) {
+        } else if (lists.length == 1) {
             return lists[0];
         }
 
@@ -41,11 +41,11 @@ public class Q23MergekSortedLists {
         ListNode sentinel = new ListNode(-37);
         ListNode prev = sentinel;
 
-        while  (l1 != null || l2 != null) {
+        while (l1 != null || l2 != null) {
             if (l1 == null) {
                 prev.next = l2;
                 l2 = l2.next;
-            } else if(l2 == null) {
+            } else if (l2 == null) {
                 prev.next = l1;
                 l1 = l1.next;
             } else {
@@ -67,9 +67,9 @@ public class Q23MergekSortedLists {
     //runtime: O(nm), not extra data structure used; the runtime is still slow like 100ms, beating 16% submissions
     //it's quicker as it eliminates reluctant comparison when there's not elements in a list
     public static ListNode mergeKListsOld(ListNode[] lists) {
-        if(lists.length == 0) {
+        if (lists.length == 0) {
             return null;
-        } else if(lists.length == 1) {
+        } else if (lists.length == 1) {
             return lists[0];
         }
 
@@ -82,7 +82,8 @@ public class Q23MergekSortedLists {
         // a variable to determine the range to check; reduce the runtime to O(n) instead of O(mn)
         int checkRange = lists.length - 1;
 
-        label: while (checkRange >= 0) {
+        label:
+        while (checkRange >= 0) {
             smallest = Integer.MAX_VALUE;
             for (int i = 0; i <= checkRange; i++) {
                 if (lists[i] == null) {
@@ -112,9 +113,9 @@ public class Q23MergekSortedLists {
     //306ms. beats 7% submissions
     //runtime: O(nm) where n is the number of elements, m is the size of the lists
     public static ListNode mergeKListsSlow2(ListNode[] lists) {
-        if(lists.length == 0) {
+        if (lists.length == 0) {
             return null;
-        } else if(lists.length == 1) {
+        } else if (lists.length == 1) {
             return lists[0];
         }
 
@@ -159,7 +160,7 @@ public class Q23MergekSortedLists {
         //Iterator<ListNode> iter = sentinels.iterator();
 
         ListNode head;
-        for (ListNode list: lists) {
+        for (ListNode list : lists) {
             head = new ListNode(-37);
             head.next = list;
             sentinels.add(head);
@@ -170,7 +171,8 @@ public class Q23MergekSortedLists {
 
         int smallest = Integer.MAX_VALUE;
         ListNode smallestNodeSentinel = null;
-        removeNodeLabel: while (sentinels.size() != 0) {
+        removeNodeLabel:
+        while (sentinels.size() != 0) {
             for (ListNode sentinel : sentinels) {
                 if (sentinel.next != null) {
                     if (sentinel.next.val < smallest) {
@@ -193,7 +195,7 @@ public class Q23MergekSortedLists {
     }
 
     public static void main(String[] args) {
-        ListNode[] lists = new ListNode[] {ListNode.of(1,4,5), ListNode.of(1,3,4), ListNode.of(2,6)};
+        ListNode[] lists = new ListNode[]{ListNode.of(1, 4, 5), ListNode.of(1, 3, 4), ListNode.of(2, 6)};
         System.out.println(mergeKListsSlow(lists));
     }
 }
