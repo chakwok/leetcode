@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 56**
-* Easy: 38
-* Medium: 15
+**Total Problem Solved: 60**
+* Easy: 40
+* Medium: 17
 * Hard: 3
 
 
@@ -85,6 +85,14 @@ _686. Repeated String Match
 
 _104. Maximum Depth of Binary Tree
 
+_53. Maximum Subarray
+
+~~868. Binary Gap~~
+
+_455. Assign Cookies
+
+~~55. Jump Game~~
+
 **Medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -123,6 +131,10 @@ _147. Insertion Sort List
 
 _148. Sort List
 
+_565. Array Nesting
+
+_722. Remove Comments
+
 **Hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -151,3 +163,4 @@ _23. Merge k Sorted Lists
 * 2018-10-28: 37-13-3
 * 2018-10-29: 37-14-3
 * 2018-11-06: 38-15-3
+* 2018-11-23: 40-17-3

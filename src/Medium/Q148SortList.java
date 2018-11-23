@@ -5,9 +5,41 @@ import helper.ListNode;
 import java.util.ArrayList;
 
 public class Q148SortList {
-    //reuse code from Q23, the running time is Nlog(k) where k is the number of already sorted nodeLists
-    // in the ListNode list.
+    //mergeSort
     public static ListNode sortList(ListNode head) {
+        return mergeSort(head);
+    }
+
+    private static ListNode mergeSort(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        ListNode oneHalf = new ListNode(-37);
+        ListNode ptrOne = oneHalf;
+        ListNode secondHalf = new ListNode(-37);
+        ListNode ptrTwo = secondHalf;
+
+        while (head != null) {
+            ptrOne.next = head;
+            ptrTwo.next = head.next;
+
+            if (ptrTwo.next == null) {
+                break;
+            }
+            head = head.next.next;
+            ptrOne = ptrOne.next;
+            ptrOne.next = null;
+            ptrTwo = ptrTwo.next;
+            ptrTwo.next = null;
+        }
+
+        return mergeTwoLists(mergeSort(oneHalf.next), mergeSort(secondHalf.next));
+    }
+
+    //reuse code from Q23, the running time is Nlog(k) where k is the number of already sorted nodeLists
+    // in the ListNode list. space: O(n)
+    public static ListNode sortList2(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
