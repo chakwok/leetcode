@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 60**
-* Easy: 40
-* Medium: 17
+**Total Problem Solved: 64**
+* Easy: 42
+* Medium: 19
 * Hard: 3
 
 
@@ -87,11 +87,11 @@ _104. Maximum Depth of Binary Tree
 
 _53. Maximum Subarray
 
-~~868. Binary Gap~~
+_868. Binary Gap
 
 _455. Assign Cookies
 
-~~55. Jump Game~~
+_704. Binary Search
 
 **Medium**
 
@@ -135,6 +135,12 @@ _565. Array Nesting
 
 _722. Remove Comments
 
+_55. Jump Game
+
+_621. Task Scheduler
+
+~~932. Beautiful Array~~
+
 **Hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -164,3 +170,5 @@ _23. Merge k Sorted Lists
 * 2018-10-29: 37-14-3
 * 2018-11-06: 38-15-3
 * 2018-11-23: 40-17-3
+* 2018-11-24: 41-19-3
+* 2018-11-24: 42-19-3
