@@ -1,6 +1,6 @@
 # leetcode
-**Total Problem Solved: 64**
-* Easy: 42
+**Total Problem Solved: 66**
+* Easy: 44
 * Medium: 19
 * Hard: 3
 
@@ -93,6 +93,10 @@ _455. Assign Cookies
 
 _704. Binary Search
 
+_929. Unique Email Addresses
+
+_824. Goat Latin
+
 **Medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -170,5 +174,5 @@ _23. Merge k Sorted Lists
 * 2018-10-29: 37-14-3
 * 2018-11-06: 38-15-3
 * 2018-11-23: 40-17-3
-* 2018-11-24: 41-19-3
 * 2018-11-24: 42-19-3
+* 2018-11-26: 44-19-3
