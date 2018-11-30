@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 66**
-* Easy: 44
-* Medium: 19
+**Total Problem Solved: 68**
+* Easy: 45
+* Medium: 20
 * Hard: 3
 
 
@@ -97,6 +97,8 @@ _929. Unique Email Addresses
 
 _824. Goat Latin
 
+_859. Buddy Strings
+
 **Medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -145,6 +147,8 @@ _621. Task Scheduler
 
 ~~932. Beautiful Array~~
 
+_833. Find And Replace in String
+
 **Hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -176,3 +180,4 @@ _23. Merge k Sorted Lists
 * 2018-11-23: 40-17-3
 * 2018-11-24: 42-19-3
 * 2018-11-26: 44-19-3
+* 2018-11-30: 45-20-3
