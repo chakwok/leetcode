@@ -1,8 +1,8 @@
 # leetcode
-**Total Problem Solved: 68**
+**Total Problem Solved: 70**
 * Easy: 45
-* Medium: 20
-* Hard: 3
+* Medium: 21
+* Hard: 4
 
 
 **Easy**
@@ -149,6 +149,8 @@ _621. Task Scheduler
 
 _833. Find And Replace in String
 
+_729. My Calendar I
+
 **Hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -158,6 +160,8 @@ _25. Reverse Nodes in k-Group
 ~~316. Remove Duplicate Letters~~
 
 _23. Merge k Sorted Lists
+
+_761. Special Binary String
 
 
 
@@ -181,3 +185,4 @@ _23. Merge k Sorted Lists
 * 2018-11-24: 42-19-3
 * 2018-11-26: 44-19-3
 * 2018-11-30: 45-20-3
+* 2018-12-04: 45-21-4
