@@ -1,8 +1,8 @@
 # leetcode
-**Total Problem Solved: 70**
-* Easy: 45
+**Total Problem Solved: 72**
+* Easy: 46
 * Medium: 21
-* Hard: 4
+* Hard: 5
 
 
 **Easy**
@@ -99,6 +99,8 @@ _824. Goat Latin
 
 _859. Buddy Strings
 
+_155. Min Stack
+
 **Medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -163,6 +165,8 @@ _23. Merge k Sorted Lists
 
 _761. Special Binary String
 
+_239. Sliding Window Maximum
+
 
 
 
@@ -186,3 +190,4 @@ _761. Special Binary String
 * 2018-11-26: 44-19-3
 * 2018-11-30: 45-20-3
 * 2018-12-04: 45-21-4
+* 2019-01-24: 46-21-5
