@@ -1,11 +1,11 @@
 # leetcode
-**Total Problem Solved: 72**
-* Easy: 46
-* Medium: 21
-* Hard: 5
+**Total Problem Solved: 75**
+* easy: 48
+* medium: 22
+* hard: 5
 
 
-**Easy**
+**easy**
 
 _1. Two Sum: Your runtime beats 99.86 % of java submissions.
 
@@ -101,7 +101,11 @@ _859. Buddy Strings
 
 _155. Min Stack
 
-**Medium**
+_977. Squares of a Sorted Array
+
+_961. N-Repeated Element in Size 2N Array
+
+**medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
 
@@ -153,7 +157,9 @@ _833. Find And Replace in String
 
 _729. My Calendar I
 
-**Hard**
+_328. Odd Even Linked List
+
+**hard**
 
 _154. Find Minimum in Rotated Sorted Array II
 
@@ -191,3 +197,4 @@ _239. Sliding Window Maximum
 * 2018-11-30: 45-20-3
 * 2018-12-04: 45-21-4
 * 2019-01-24: 46-21-5
+* 2019-01-30: 48-22-5
