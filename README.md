@@ -1,8 +1,8 @@
 # leetcode
-**Total Problem Solved: 75**
-* easy: 48
-* medium: 22
-* hard: 5
+**Total Problem Solved: 81**
+* easy: 52
+* medium: 23
+* hard: 6
 
 
 **easy**
@@ -105,6 +105,14 @@ _977. Squares of a Sorted Array
 
 _961. N-Repeated Element in Size 2N Array
 
+_657. Robot Return to Origin
+
+_191. Number of 1 Bits
+
+_461. Hamming Distance
+
+_728. Self Dividing Numbers
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -159,6 +167,8 @@ _729. My Calendar I
 
 _328. Odd Even Linked List
 
+_300. Longest Increasing Subsequence
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -172,6 +182,8 @@ _23. Merge k Sorted Lists
 _761. Special Binary String
 
 _239. Sliding Window Maximum
+
+_975. Odd Even Jump
 
 
 
@@ -198,3 +210,4 @@ _239. Sliding Window Maximum
 * 2018-12-04: 45-21-4
 * 2019-01-24: 46-21-5
 * 2019-01-30: 48-22-5
+* 2019-02-22: 52-23-6

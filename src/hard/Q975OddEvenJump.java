@@ -3,7 +3,7 @@ package hard;
 public class Q975OddEvenJump {
     public static void main(String[] args) {
         Q975OddEvenJump app = new Q975OddEvenJump();
-        int ans = app.oddEvenJumps(new int[] {10,13,12,14,15});
+         int ans = app.oddEvenJumps(new int[] {10,13,12,14,15});
         System.out.println(ans);
     }
 
