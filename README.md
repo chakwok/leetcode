@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 81**
-* easy: 52
-* medium: 23
+**Total Problem Solved: 84**
+* easy: 54
+* medium: 24
 * hard: 6
 
 
@@ -113,6 +113,10 @@ _461. Hamming Distance
 
 _728. Self Dividing Numbers
 
+_509. Fibonacci Number
+
+_620. Not Boring Movies
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -169,6 +173,8 @@ _328. Odd Even Linked List
 
 _300. Longest Increasing Subsequence
 
+_791. Custom Sort String
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -211,3 +217,4 @@ _975. Odd Even Jump
 * 2019-01-24: 46-21-5
 * 2019-01-30: 48-22-5
 * 2019-02-22: 52-23-6
+* 2019-03-07: 54-24-6
