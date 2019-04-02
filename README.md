@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 84**
-* easy: 54
-* medium: 24
+**Total Problem Solved: 87**
+* easy: 56
+* medium: 25
 * hard: 6
 
 
@@ -117,6 +117,10 @@ _509. Fibonacci Number
 
 _620. Not Boring Movies
 
+_217. Contains Duplicate
+
+_860. Lemonade Change
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -175,6 +179,8 @@ _300. Longest Increasing Subsequence
 
 _791. Custom Sort String
 
+_938. Range Sum of BST
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -218,3 +224,4 @@ _975. Odd Even Jump
 * 2019-01-30: 48-22-5
 * 2019-02-22: 52-23-6
 * 2019-03-07: 54-24-6
+* 2019-04-02: 56-25-6
