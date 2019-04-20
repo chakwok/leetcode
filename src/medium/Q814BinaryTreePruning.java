@@ -33,15 +33,11 @@ public class Q814BinaryTreePruning {
         }
 
 
-        if(node.left == null) {
-            return false;
-        } else if (node.left.val == 1) {
+        if (node.left != null && node.left.val == 1) {
             return true;
         }
 
-        if(node.right == null) {
-            return false;
-        } else if(node.right.val == 1) {
+        if(node.right != null && node.right.val == 1) {
             return true;
         }
 

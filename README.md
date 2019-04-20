@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 87**
-* easy: 56
-* medium: 25
+**Total Problem Solved: 93**
+* easy: 60
+* medium: 27
 * hard: 6
 
 
@@ -121,6 +121,14 @@ _217. Contains Duplicate
 
 _860. Lemonade Change
 
+_942. DI String Match
+
+_344. Reverse String
+
+_821. Shortest Distance to a Character
+
+_706. Design HashMap
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -181,6 +189,12 @@ _791. Custom Sort String
 
 _938. Range Sum of BST
 
+_814. Binary Tree Pruning
+
+~~712. Minimum ASCII Delete Sum for Two Strings~~
+
+_200. Number of Islands
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -225,3 +239,7 @@ _975. Odd Even Jump
 * 2019-02-22: 52-23-6
 * 2019-03-07: 54-24-6
 * 2019-04-02: 56-25-6
+* 2019-04-08: 58-26-6
+* 2019-04-08: 58-26-6
+* 2019-04-08: 58-26-6
+* 2019-04-21: 60-27-6
