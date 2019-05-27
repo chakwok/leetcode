@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 93**
-* easy: 60
-* medium: 27
+**Total Problem Solved: 104**
+* easy: 65
+* medium: 33
 * hard: 6
 
 
@@ -129,6 +129,16 @@ _821. Shortest Distance to a Character
 
 _706. Design HashMap
 
+_917. Reverse Only Letters
+
+_485. Max Consecutive Ones
+
+_965. Univalued Binary Tree
+
+_993. Cousins in Binary Tree
+
+_938. Range Sum of BST
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -175,7 +185,7 @@ _55. Jump Game
 
 _621. Task Scheduler
 
-~~932. Beautiful Array~~
+_932. Beautiful Array
 
 _833. Find And Replace in String
 
@@ -194,6 +204,16 @@ _814. Binary Tree Pruning
 ~~712. Minimum ASCII Delete Sum for Two Strings~~
 
 _200. Number of Islands
+
+_26. Remove Duplicates from Sorted Array
+
+_240. Search a 2D Matrix II
+
+_78. Subsets
+
+_1004. Max Consecutive Ones III
+
+_98. Validate Binary Search Tree
 
 **hard**
 
@@ -243,3 +263,4 @@ _975. Odd Even Jump
 * 2019-04-08: 58-26-6
 * 2019-04-08: 58-26-6
 * 2019-04-21: 60-27-6
+* 2019-05-26: 65-33-6
