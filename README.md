@@ -1,8 +1,8 @@
 # leetcode
-**Total Problem Solved: 104**
-* easy: 65
-* medium: 33
-* hard: 6
+**Total Problem Solved: 118**
+* easy: 70
+* medium: 39
+* hard: 9
 
 
 **easy**
@@ -139,6 +139,17 @@ _993. Cousins in Binary Tree
 
 _938. Range Sum of BST
 
+_500. Keyboard Row
+
+_183. Customers Who Never Order
+
+_1009. Complement of Base 10 Integer
+
+_476. Number Complement
+
+_387. First Unique Character in a String
+
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -215,6 +226,18 @@ _1004. Max Consecutive Ones III
 
 _98. Validate Binary Search Tree
 
+_94. Binary Tree Inorder Traversal
+
+_144. Binary Tree Preorder Traversal
+
+_279. Perfect Squares
+
+_318. Maximum Product of Word Lengths
+
+_3. Longest Substring Without Repeating Characters
+
+_451. Sort Characters By Frequency
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -231,7 +254,11 @@ _239. Sliding Window Maximum
 
 _975. Odd Even Jump
 
+_145. Binary Tree Postorder Traversal
 
+_295. Find Median from Data Stream
+
+_85. Maximal Rectangle
 
 
 
@@ -264,3 +291,6 @@ _975. Odd Even Jump
 * 2019-04-08: 58-26-6
 * 2019-04-21: 60-27-6
 * 2019-05-26: 65-33-6
+* 2019-05-31: 69-38-8
+* 2019-06-01: 70-39-9
+* 2019-06-01: 70-39-9
