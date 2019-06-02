@@ -1,8 +1,8 @@
 # leetcode
-**Total Problem Solved: 118**
+**Total Problem Solved: 117**
 * easy: 70
 * medium: 39
-* hard: 9
+* hard: 8
 
 
 **easy**
@@ -238,6 +238,8 @@ _3. Longest Substring Without Repeating Characters
 
 _451. Sort Characters By Frequency
 
+347. Top K Frequent Elements
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -257,8 +259,6 @@ _975. Odd Even Jump
 _145. Binary Tree Postorder Traversal
 
 _295. Find Median from Data Stream
-
-_85. Maximal Rectangle
 
 
 
@@ -288,9 +288,7 @@ _85. Maximal Rectangle
 * 2019-04-02: 56-25-6
 * 2019-04-08: 58-26-6
 * 2019-04-08: 58-26-6
-* 2019-04-08: 58-26-6
 * 2019-04-21: 60-27-6
 * 2019-05-26: 65-33-6
 * 2019-05-31: 69-38-8
-* 2019-06-01: 70-39-9
-* 2019-06-01: 70-39-9
+* 2019-06-01: 70-39-8
