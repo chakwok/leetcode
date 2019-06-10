@@ -1,8 +1,8 @@
 # leetcode
-**Total Problem Solved: 117**
-* easy: 70
-* medium: 39
-* hard: 8
+**Total Problem Solved: 127**
+* easy: 72
+* medium: 45
+* hard: 10
 
 
 **easy**
@@ -149,6 +149,11 @@ _476. Number Complement
 
 _387. First Unique Character in a String
 
+_1047. Remove All Adjacent Duplicates In String
+
+_107. Binary Tree Level Order Traversal II
+
+
 
 **medium**
 
@@ -238,7 +243,18 @@ _3. Longest Substring Without Repeating Characters
 
 _451. Sort Characters By Frequency
 
-347. Top K Frequent Elements
+_890. Find and Replace Pattern
+
+_647. Palindromic Substrings
+
+_101. Symmetric Tree
+
+_515. Find Largest Value in Each Tree Row
+
+_227. Basic Calculator II
+
+_102. Binary Tree Level Order Traversal
+
 
 **hard**
 
@@ -259,6 +275,10 @@ _975. Odd Even Jump
 _145. Binary Tree Postorder Traversal
 
 _295. Find Median from Data Stream
+
+_224. Basic Calculator
+
+_128. Longest Consecutive Sequence
 
 
 
@@ -288,7 +308,10 @@ _295. Find Median from Data Stream
 * 2019-04-02: 56-25-6
 * 2019-04-08: 58-26-6
 * 2019-04-08: 58-26-6
+* 2019-04-08: 58-26-6
 * 2019-04-21: 60-27-6
 * 2019-05-26: 65-33-6
 * 2019-05-31: 69-38-8
+* 2019-06-01: 70-39-9
 * 2019-06-01: 70-39-8
+* 2019-06-10: 72-45-10
