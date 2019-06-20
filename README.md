@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 127**
-* easy: 72
-* medium: 45
+**Total Problem Solved: 130**
+* easy: 74
+* medium: 46
 * hard: 10
 
 
@@ -153,6 +153,9 @@ _1047. Remove All Adjacent Duplicates In String
 
 _107. Binary Tree Level Order Traversal II
 
+_637. Average of Levels in Binary Tree
+
+_811. Subdomain Visit Count
 
 
 **medium**
@@ -255,6 +258,8 @@ _227. Basic Calculator II
 
 _102. Binary Tree Level Order Traversal
 
+_912. Sort an Array
+
 
 **hard**
 
@@ -315,3 +320,4 @@ _128. Longest Consecutive Sequence
 * 2019-06-01: 70-39-9
 * 2019-06-01: 70-39-8
 * 2019-06-10: 72-45-10
+* 2019-06-15: 74-46-10 | sum: 130
