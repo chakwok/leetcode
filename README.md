@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 130**
-* easy: 74
-* medium: 46
+**Total Problem Solved: 137**
+* easy: 77
+* medium: 50
 * hard: 10
 
 
@@ -157,6 +157,12 @@ _637. Average of Levels in Binary Tree
 
 _811. Subdomain Visit Count
 
+_1078. Occurrences After Bigram
+
+_953. Verifying an Alien Dictionary
+
+_1089. Duplicate Zeros
+
 
 **medium**
 
@@ -260,6 +266,13 @@ _102. Binary Tree Level Order Traversal
 
 _912. Sort an Array
 
+_173. Binary Search Tree Iterator
+
+_946. Validate Stack Sequences
+
+_677. Map Sum Pairs
+
+_1090. Largest Values From Labels
 
 **hard**
 
@@ -321,3 +334,4 @@ _128. Longest Consecutive Sequence
 * 2019-06-01: 70-39-8
 * 2019-06-10: 72-45-10
 * 2019-06-15: 74-46-10 | sum: 130
+* 2019-06-21: 77-50-10 | sum: 137
