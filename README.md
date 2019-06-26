@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 137**
-* easy: 77
-* medium: 50
+**Total Problem Solved: 139**
+* easy: 78
+* medium: 51
 * hard: 10
 
 
@@ -163,6 +163,8 @@ _953. Verifying an Alien Dictionary
 
 _1089. Duplicate Zeros
 
+_985. Sum of Even Numbers After Queries
+
 
 **medium**
 
@@ -274,6 +276,10 @@ _677. Map Sum Pairs
 
 _1090. Largest Values From Labels
 
+_1093. Statistics from a Large Sample
+
+Q1094CarPooling
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -335,3 +341,4 @@ _128. Longest Consecutive Sequence
 * 2019-06-10: 72-45-10
 * 2019-06-15: 74-46-10 | sum: 130
 * 2019-06-21: 77-50-10 | sum: 137
+* 2019-06-26: 78-51-10 | sum: 139
