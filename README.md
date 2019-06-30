@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 139**
+**Total Problem Solved: 140**
 * easy: 78
-* medium: 51
+* medium: 52
 * hard: 10
 
 
@@ -165,6 +165,8 @@ _1089. Duplicate Zeros
 
 _985. Sum of Even Numbers After Queries
 
+1099. Two Sum Less Than K
+
 
 **medium**
 
@@ -278,7 +280,9 @@ _1090. Largest Values From Labels
 
 _1093. Statistics from a Large Sample
 
-Q1094CarPooling
+_1094. Car Pooling
+
+1100. Find K-Length Substrings With No Repeated Characters
 
 **hard**
 
@@ -342,3 +346,4 @@ _128. Longest Consecutive Sequence
 * 2019-06-15: 74-46-10 | sum: 130
 * 2019-06-21: 77-50-10 | sum: 137
 * 2019-06-26: 78-51-10 | sum: 139
+* 2019-06-26: 78-52-10 | sum: 140

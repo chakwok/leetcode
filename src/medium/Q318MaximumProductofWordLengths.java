@@ -1,6 +1,7 @@
 package medium;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -15,7 +16,12 @@ public class Q318MaximumProductofWordLengths {
         }
 
 
-        Arrays.sort(words, (o1, o2) -> o2.length() - o1.length());
+        Arrays.sort(words, new Comparator<String>(){
+            public int compare(String a, String b){
+                return b.length() - a.length();
+            }
+        });
+
         HashSet<Character>[] arr = (HashSet<Character>[]) new HashSet[words.length];
         int count = 0;
         for(String word: words) {
