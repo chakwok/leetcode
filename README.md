@@ -1,8 +1,8 @@
 # leetcode
-**Total Problem Solved: 140**
-* easy: 78
-* medium: 52
-* hard: 10
+**Total Problem Solved: 155**
+* easy: 88
+* medium: 56
+* hard: 11
 
 
 **easy**
@@ -165,8 +165,25 @@ _1089. Duplicate Zeros
 
 _985. Sum of Even Numbers After Queries
 
-1099. Two Sum Less Than K
+_844. Backspace String Compare
 
+_557. Reverse Words in a String III
+
+_415. Add Strings
+
+_541. Reverse String II
+
+_28. Implement strStr()
+
+_1108. Defanging an IP Address
+
+_1122. Relative Sort Array
+
+_1150. Check If a Number Is Majority Element in a Sorted Array
+
+_1071. Greatest Common Divisor of Strings
+
+_1122. Relative Sort Array
 
 **medium**
 
@@ -282,7 +299,13 @@ _1093. Statistics from a Large Sample
 
 _1094. Car Pooling
 
-1100. Find K-Length Substrings With No Repeated Characters
+_430. Flatten a Multilevel Doubly Linked List
+
+_230. Kth Smallest Element in a BST
+
+_1151. Minimum Swaps to Group All 1's Together
+
+_1152. Analyze User Website Visit Pattern
 
 **hard**
 
@@ -307,6 +330,8 @@ _295. Find Median from Data Stream
 _224. Basic Calculator
 
 _128. Longest Consecutive Sequence
+
+_1095. Find in Mountain Array
 
 
 
@@ -347,3 +372,5 @@ _128. Longest Consecutive Sequence
 * 2019-06-21: 77-50-10 | sum: 137
 * 2019-06-26: 78-51-10 | sum: 139
 * 2019-06-26: 78-52-10 | sum: 140
+* 2019-11-16: 88-56-11 | sum: 155
+* 2019-11-16: 88-56-11 | sum: 155
