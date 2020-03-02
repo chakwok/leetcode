@@ -1,8 +1,8 @@
 # leetcode
-**Total Problem Solved: 155**
-* easy: 88
+**Total Problem Solved: 157**
+* easy: 89
 * medium: 56
-* hard: 11
+* hard: 12
 
 
 **easy**
@@ -183,7 +183,9 @@ _1150. Check If a Number Is Majority Element in a Sorted Array
 
 _1071. Greatest Common Divisor of Strings
 
-_1122. Relative Sort Array
+_589. N-ary Tree Preorder Traversal
+
+_1365. How Many Numbers Are Smaller Than the Current Number
 
 **medium**
 
@@ -333,6 +335,8 @@ _128. Longest Consecutive Sequence
 
 _1095. Find in Mountain Array
 
+_315. Count of Smaller Numbers After Self
+
 
 
 =============== Log ===============
@@ -374,3 +378,4 @@ _1095. Find in Mountain Array
 * 2019-06-26: 78-52-10 | sum: 140
 * 2019-11-16: 88-56-11 | sum: 155
 * 2019-11-16: 88-56-11 | sum: 155
+* 2020-03-02: 89-56-12 | sum: 157
