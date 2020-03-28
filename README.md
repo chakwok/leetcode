@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 157**
-* easy: 89
-* medium: 56
+**Total Problem Solved: 160**
+* easy: 91
+* medium: 57
 * hard: 12
 
 
@@ -187,6 +187,10 @@ _589. N-ary Tree Preorder Traversal
 
 _1365. How Many Numbers Are Smaller Than the Current Number
 
+_1342. Number of Steps to Reduce a Number to Zero
+
+_1313. Decompress Run-Length Encoded List
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -309,6 +313,8 @@ _1151. Minimum Swaps to Group All 1's Together
 
 _1152. Analyze User Website Visit Pattern
 
+_1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -379,3 +385,4 @@ _315. Count of Smaller Numbers After Self
 * 2019-11-16: 88-56-11 | sum: 155
 * 2019-11-16: 88-56-11 | sum: 155
 * 2020-03-02: 89-56-12 | sum: 157
+* 2020-03-14: 91-57-12 | sum: 160
