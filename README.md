@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 162**
-* easy: 92
-* medium: 58
+**Total Problem Solved: 166**
+* easy: 95
+* medium: 59
 * hard: 12
 
 
@@ -193,6 +193,12 @@ _1313. Decompress Run-Length Encoded List
 
 _872. Leaf-Similar Trees
 
+_1351. Count Negative Numbers in a Sorted Matrix
+
+_1323. Maximum 69 Number
+
+_122. Best Time to Buy and Sell Stock II
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -319,6 +325,8 @@ _1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
 
 _341. Flatten Nested List Iterator
 
+_1104. Path In Zigzag Labelled Binary Tree
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -391,3 +399,4 @@ _315. Count of Smaller Numbers After Self
 * 2020-03-02: 89-56-12 | sum: 157
 * 2020-03-14: 91-57-12 | sum: 160
 * 2020-04-01: 92-58-12 | sum: 162
+* 2020-04-05: 95-59-12 | sum: 166
