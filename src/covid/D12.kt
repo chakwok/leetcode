@@ -2,7 +2,6 @@ package covid
 
 import java.util.*
 
-
 class D12 {
     //nlogn
     fun lastStoneWeight(stones: IntArray): Int {

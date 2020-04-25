@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 166**
-* easy: 95
-* medium: 59
+**Total Problem Solved: 172**
+* easy: 98
+* medium: 62
 * hard: 12
 
 
@@ -199,6 +199,12 @@ _1323. Maximum 69 Number
 
 _122. Best Time to Buy and Sell Stock II
 
+_242. Valid Anagram
+
+_543. Diameter of Binary Tree
+
+_1046. Last Stone Weight
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -327,6 +333,12 @@ _341. Flatten Nested List Iterator
 
 _1104. Path In Zigzag Labelled Binary Tree
 
+_49. Group Anagrams
+
+_525. Contiguous Array
+
+_238. Product of Array Except Self
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -400,3 +412,4 @@ _315. Count of Smaller Numbers After Self
 * 2020-03-14: 91-57-12 | sum: 160
 * 2020-04-01: 92-58-12 | sum: 162
 * 2020-04-05: 95-59-12 | sum: 166
+* 2020-04-15: 98-62-12 | sum: 172
