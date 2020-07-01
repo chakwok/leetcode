@@ -1,8 +1,8 @@
 # leetcode
-**Total Problem Solved: 172**
+**Total Problem Solved: 175**
 * easy: 98
-* medium: 62
-* hard: 12
+* medium: 64
+* hard: 13
 
 
 **easy**
@@ -339,6 +339,10 @@ _525. Contiguous Array
 
 _238. Product of Array Except Self
 
+_1049. Last Stone Weight II
+
+_146. LRU Cache
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -366,6 +370,8 @@ _128. Longest Consecutive Sequence
 _1095. Find in Mountain Array
 
 _315. Count of Smaller Numbers After Self
+
+_124. Binary Tree Maximum Path Sum
 
 
 
@@ -413,3 +419,4 @@ _315. Count of Smaller Numbers After Self
 * 2020-04-01: 92-58-12 | sum: 162
 * 2020-04-05: 95-59-12 | sum: 166
 * 2020-04-15: 98-62-12 | sum: 172
+* 2020-07-01: 98-64-13 | sum: 175

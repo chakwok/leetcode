@@ -186,6 +186,20 @@
 
 872. Leaf-Similar Trees
 
+1351. Count Negative Numbers in a Sorted Matrix
+
+1323. Maximum 69 Number
+
+122. Best Time to Buy and Sell Stock II
+
+242. Valid Anagram
+
+543. Diameter of Binary Tree
+
+1046. Last Stone Weight
+
+441. Arranging Coins
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -312,6 +326,18 @@
 
 341. Flatten Nested List Iterator
 
+1104. Path In Zigzag Labelled Binary Tree
+
+49. Group Anagrams
+
+525. Contiguous Array
+
+238. Product of Array Except Self
+
+1049. Last Stone Weight II
+
+146. LRU Cache
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
@@ -339,6 +365,8 @@
 1095. Find in Mountain Array
 
 315. Count of Smaller Numbers After Self
+
+124. Binary Tree Maximum Path Sum
 
 
 
@@ -384,3 +412,6 @@
 * 2020-03-02: 89-56-12 | sum: 157
 * 2020-03-14: 91-57-12 | sum: 160
 * 2020-04-01: 92-58-12 | sum: 162
+* 2020-04-05: 95-59-12 | sum: 166
+* 2020-04-15: 98-62-12 | sum: 172
+* 2020-07-01: 98-64-13 | sum: 175
