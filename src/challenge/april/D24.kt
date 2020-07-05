@@ -1,4 +1,4 @@
-package covid
+package challenge.april
 
 class D24 {
     class LRUCache(capacity: Int) {

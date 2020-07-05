@@ -1,4 +1,4 @@
-package covid
+package challenge.april
 
 class D1 {
     fun singleNumber(nums: IntArray): Int {

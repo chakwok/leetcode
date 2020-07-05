@@ -1,4 +1,4 @@
-package covid
+package challenge.april
 
 class D7 {
     fun countElements(arr: IntArray): Int {

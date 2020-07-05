@@ -1,4 +1,4 @@
-package covid
+package challenge.april
 
 class D2 {
     fun isHappy(n: Int): Boolean {

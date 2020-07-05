@@ -1,4 +1,4 @@
-package covid
+package challenge.april
 
 class D4 {
     fun moveZeroes(nums: IntArray): Unit {

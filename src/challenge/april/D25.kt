@@ -1,4 +1,4 @@
-package covid
+package challenge.april
 
 class D25 {
     fun canJump(nums: IntArray): Boolean {

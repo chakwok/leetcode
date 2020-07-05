@@ -1,4 +1,4 @@
-package covid
+package challenge.april
 
 class D5 {
     fun maxProfit(prices: IntArray): Int {
