@@ -338,6 +338,8 @@
 
 146. LRU Cache
 
+284. Peeking Iterator
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
