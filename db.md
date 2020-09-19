@@ -340,6 +340,8 @@
 
 284. Peeking Iterator
 
+114. Flatten Binary Tree to Linked List
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
@@ -417,3 +419,4 @@
 * 2020-04-05: 95-59-12 | sum: 166
 * 2020-04-15: 98-62-12 | sum: 172
 * 2020-07-01: 98-64-13 | sum: 175
+* 2020-09-19: 99-66-13 | sum: 178

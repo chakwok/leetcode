@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 175**
-* easy: 98
-* medium: 64
+**Total Problem Solved: 178**
+* easy: 99
+* medium: 66
 * hard: 13
 
 
@@ -205,6 +205,8 @@ _543. Diameter of Binary Tree
 
 _1046. Last Stone Weight
 
+_441. Arranging Coins
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -343,6 +345,10 @@ _1049. Last Stone Weight II
 
 _146. LRU Cache
 
+_284. Peeking Iterator
+
+_114. Flatten Binary Tree to Linked List
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -420,3 +426,4 @@ _124. Binary Tree Maximum Path Sum
 * 2020-04-05: 95-59-12 | sum: 166
 * 2020-04-15: 98-62-12 | sum: 172
 * 2020-07-01: 98-64-13 | sum: 175
+* 2020-09-19: 99-66-13 | sum: 178
