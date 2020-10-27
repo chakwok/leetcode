@@ -342,6 +342,10 @@
 
 114. Flatten Binary Tree to Linked List
 
+7. Reverse Integer
+
+9. Palindrome Number
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
@@ -420,3 +424,4 @@
 * 2020-04-15: 98-62-12 | sum: 172
 * 2020-07-01: 98-64-13 | sum: 175
 * 2020-09-19: 99-66-13 | sum: 178
+* 2020-10-27: 99-68-13 | sum: 180

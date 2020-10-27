@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 178**
+**Total Problem Solved: 180**
 * easy: 99
-* medium: 66
+* medium: 68
 * hard: 13
 
 
@@ -349,6 +349,10 @@ _284. Peeking Iterator
 
 _114. Flatten Binary Tree to Linked List
 
+_7. Reverse Integer
+
+_9. Palindrome Number
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -427,3 +431,4 @@ _124. Binary Tree Maximum Path Sum
 * 2020-04-15: 98-62-12 | sum: 172
 * 2020-07-01: 98-64-13 | sum: 175
 * 2020-09-19: 99-66-13 | sum: 178
+* 2020-10-27: 99-68-13 | sum: 180
