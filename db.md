@@ -200,6 +200,14 @@
 
 441. Arranging Coins
 
+7. Reverse Integer
+
+9. Palindrome Number
+
+228. Summary Ranges
+
+1480. Running Sum of 1d Array
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -342,9 +350,9 @@
 
 114. Flatten Binary Tree to Linked List
 
-7. Reverse Integer
+1701. Average Waiting Time
 
-9. Palindrome Number
+1508. Range Sum of Sorted Subarray Sums
 
 **hard**
 
