@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 180**
-* easy: 99
-* medium: 68
+**Total Problem Solved: 185**
+* easy: 103
+* medium: 69
 * hard: 13
 
 
@@ -207,6 +207,14 @@ _1046. Last Stone Weight
 
 _441. Arranging Coins
 
+_7. Reverse Integer
+
+_9. Palindrome Number
+
+_228. Summary Ranges
+
+_1480. Running Sum of 1d Array
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -349,9 +357,11 @@ _284. Peeking Iterator
 
 _114. Flatten Binary Tree to Linked List
 
-_7. Reverse Integer
+_1701. Average Waiting Time
 
-_9. Palindrome Number
+_1508. Range Sum of Sorted Subarray Sums
+
+_665. Non-decreasing Array
 
 **hard**
 
@@ -432,3 +442,4 @@ _124. Binary Tree Maximum Path Sum
 * 2020-07-01: 98-64-13 | sum: 175
 * 2020-09-19: 99-66-13 | sum: 178
 * 2020-10-27: 99-68-13 | sum: 180
+* 2021-05-05: 103-69-13 | sum: 185

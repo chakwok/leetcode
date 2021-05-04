@@ -354,6 +354,8 @@
 
 1508. Range Sum of Sorted Subarray Sums
 
+665. Non-decreasing Array
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
@@ -433,3 +435,4 @@
 * 2020-07-01: 98-64-13 | sum: 175
 * 2020-09-19: 99-66-13 | sum: 178
 * 2020-10-27: 99-68-13 | sum: 180
+* 2021-05-05: 103-69-13 | sum: 185
