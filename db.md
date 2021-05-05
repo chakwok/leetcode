@@ -356,6 +356,10 @@
 
 665. Non-decreasing Array
 
+1702. Maximum Binary String After Change
+
+45. Jump Game II
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
