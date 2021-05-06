@@ -208,6 +208,8 @@
 
 1480. Running Sum of 1d Array
 
+1704. Determine if String Halves Are Alike
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -360,6 +362,8 @@
 
 45. Jump Game II
 
+1282. Group the People Given the Group Size They Belong To
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
@@ -390,6 +394,9 @@
 
 124. Binary Tree Maximum Path Sum
 
+1707. Maximum XOR With an Element From Array
+
+321. Create Maximum Number
 
 
 =============== Log ===============
