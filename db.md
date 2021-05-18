@@ -210,6 +210,10 @@
 
 1704. Determine if String Halves Are Alike
 
+108. Convert Sorted Array to Binary Search Tree
+
+111. Minimum Depth of Binary Tree
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -363,6 +367,8 @@
 45. Jump Game II
 
 1282. Group the People Given the Group Size They Belong To
+
+109. Convert Sorted List to Binary Search Tree
 
 **hard**
 
