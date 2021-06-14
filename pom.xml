@@ -8,7 +8,7 @@
 
     <properties>
         <maven.compiler.release>14</maven.compiler.release>
-        <kotlin.version>1.3.72</kotlin.version>
+        <kotlin.version>1.5.10</kotlin.version>
     </properties>
 
     <dependencies>
@@ -46,6 +46,9 @@
                         </configuration>
                     </execution>
                 </executions>
+              <configuration>
+                <languageVersion>1.4</languageVersion>
+              </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

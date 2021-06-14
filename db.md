@@ -213,6 +213,8 @@
 108. Convert Sorted Array to Binary Search Tree
 
 111. Minimum Depth of Binary Tree
+     
+13. Roman to Integer
 
 **medium**
 
@@ -369,6 +371,8 @@
 1282. Group the People Given the Group Size They Belong To
 
 109. Convert Sorted List to Binary Search Tree
+
+1706. Where Will the Ball Fall
 
 **hard**
 
