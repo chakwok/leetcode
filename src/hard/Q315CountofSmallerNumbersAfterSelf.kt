@@ -1,19 +1,39 @@
 package hard
 
 import java.util.*
-import kotlin.Comparator
+import java.util.concurrent.ConcurrentSkipListSet
 import kotlin.collections.ArrayList
 
 fun main() {
-    val input  =intArrayOf(26,78,27,100,33,67,90,23,66,5,38,7,35,23,52,22,83,51,98,69,81,32,78,28,94,13,2,97,3,76,99,51,9,21,84,66,65,36,100,41)
     countSmaller(intArrayOf(5,2,6,1)).joinToString().also {println(it)}
+    countSmaller(intArrayOf(-1)).joinToString().also {println(it)}
+    countSmaller(intArrayOf(-1,-1)).joinToString().also {println(it)}
+    val input = intArrayOf(26,78,27,100,33,67,90,23,66,5,38,7,35,23,52,22,83,51,98,69,81,32,78,28,94,13,2,97,3,76,99,51,9,21,84,66,65,36,100,41)
     countSmaller(input).joinToString().also {println(it)}
 }
+
+// average case: (nlogn). worst case: (n^2). passed 63/65 test cases
+fun countSmaller(nums: IntArray): List<Int> {
+    val ans = LinkedList<Int>()
+
+    val lst = ConcurrentSkipListSet<Pair<Int, Int>>(
+        compareBy<Pair<Int, Int>> {it.first}.then(compareBy { it.second })
+    )
+
+    for(i in nums.size - 1 downTo 0) {
+        val entry = Pair(nums[i], i)
+        lst.add(entry)
+        ans.addFirst(lst.indexOf(entry))
+    }
+
+    return ans
+}
+
 
 // despite the O(logn) binary search, the linkedList.add(idx, element) takes O(n).
 // the solution is still O (n^2), only as good as Brute Force.
 // this solution needs a O(logn) add, and insertion Collection
-fun countSmaller(nums: IntArray): List<Int> {
+fun countSmallerOld(nums: IntArray): List<Int> {
     val ans = ArrayList<Int>(nums.size);
 
     val roamingSortedList = ArrayList<Int>();

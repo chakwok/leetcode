@@ -216,6 +216,8 @@
      
 13. Roman to Integer
 
+1720. Decode XORed Array
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
