@@ -218,6 +218,8 @@
 
 1720. Decode XORed Array
 
+112. Path Sum
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -375,6 +377,10 @@
 109. Convert Sorted List to Binary Search Tree
 
 1706. Where Will the Ball Fall
+
+565. Array Nesting
+
+129. Sum Root to Leaf Numbers
 
 **hard**
 
