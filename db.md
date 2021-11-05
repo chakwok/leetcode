@@ -382,6 +382,8 @@
 
 129. Sum Root to Leaf Numbers
 
+138. Copy List with Random Pointer
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II

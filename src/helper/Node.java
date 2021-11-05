@@ -5,6 +5,7 @@ public class Node {
     public Node prev;
     public Node next;
     public Node child;
+    public Node random;
 
     public Node() {}
 
@@ -13,5 +14,9 @@ public class Node {
         prev = _prev;
         next = _next;
         child = _child;
+    }
+
+    public Node(int val) {
+        this.val = val;
     }
 }
