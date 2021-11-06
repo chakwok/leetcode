@@ -384,6 +384,10 @@
 
 138. Copy List with Random Pointer
 
+143. Reorder List
+
+260. Single Number III
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
@@ -467,3 +471,4 @@
 * 2020-09-19: 99-66-13 | sum: 178
 * 2020-10-27: 99-68-13 | sum: 180
 * 2021-05-05: 103-69-13 | sum: 185
+* 2021-11-06: 109-79-15 | sum: 203

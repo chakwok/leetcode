@@ -1,8 +1,8 @@
 # leetcode
-**Total Problem Solved: 185**
-* easy: 103
-* medium: 69
-* hard: 13
+**Total Problem Solved: 203**
+* easy: 109
+* medium: 79
+* hard: 15
 
 
 **easy**
@@ -215,6 +215,18 @@ _228. Summary Ranges
 
 _1480. Running Sum of 1d Array
 
+_1704. Determine if String Halves Are Alike
+
+_108. Convert Sorted Array to Binary Search Tree
+
+_111. Minimum Depth of Binary Tree
+     
+_13. Roman to Integer
+
+_1720. Decode XORed Array
+
+_112. Path Sum
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -363,6 +375,26 @@ _1508. Range Sum of Sorted Subarray Sums
 
 _665. Non-decreasing Array
 
+_1702. Maximum Binary String After Change
+
+_45. Jump Game II
+
+_1282. Group the People Given the Group Size They Belong To
+
+_109. Convert Sorted List to Binary Search Tree
+
+_1706. Where Will the Ball Fall
+
+_565. Array Nesting
+
+_129. Sum Root to Leaf Numbers
+
+_138. Copy List with Random Pointer
+
+_143. Reorder List
+
+_260. Single Number III
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -393,6 +425,9 @@ _315. Count of Smaller Numbers After Self
 
 _124. Binary Tree Maximum Path Sum
 
+_1707. Maximum XOR With an Element From Array
+
+_321. Create Maximum Number
 
 
 =============== Log ===============
@@ -443,3 +478,4 @@ _124. Binary Tree Maximum Path Sum
 * 2020-09-19: 99-66-13 | sum: 178
 * 2020-10-27: 99-68-13 | sum: 180
 * 2021-05-05: 103-69-13 | sum: 185
+* 2021-11-06: 109-79-15 | sum: 203
