@@ -388,6 +388,12 @@
 
 260. Single Number III
 
+139. Word Break
+
+~~1286. Iterator for Combination~~
+
+62. Unique Paths
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
