@@ -394,6 +394,8 @@
 
 62. Unique Paths
 
+986. Interval List Intersections
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
