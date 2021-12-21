@@ -396,6 +396,10 @@
 
 986. Interval List Intersections
 
+1306. Jump Game III
+
+152. Maximum Product Subarray
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
