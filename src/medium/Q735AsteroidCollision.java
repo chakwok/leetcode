@@ -1,8 +1,52 @@
 package medium;
 
+import java.util.Arrays;
 import java.util.Stack;
 
 public class Q735AsteroidCollision {
+    public static int[] asteroidCollisionNew(int[] asteroids) {
+        int head = 0;
+        int ptr = 1;
+
+        while(ptr < asteroids.length) {
+            if(head < 0 || asteroids[head] < 0) {
+                asteroids[++head] = asteroids[ptr];
+                ptr++;
+                continue;
+            }
+
+            int curr = asteroids[ptr];
+            if(curr >= 0) {
+                asteroids[++head] = curr;
+            } else {
+                while(head >= 0) {
+                    if(asteroids[head] >= 0) {
+                        if(Math.abs(asteroids[head]) == Math.abs(asteroids[ptr])) {
+                            head--;
+                            break;
+                        } else if(Math.abs(asteroids[head]) > Math.abs(asteroids[ptr])) {
+                            break;
+                        } else {
+                            if(head == 0) {
+                                asteroids[head] = curr;
+                                break;
+                            } else {
+                                head--;
+                            }
+                        }
+                    } else {
+                        asteroids[++head] = curr;
+                        break;
+                    }
+                }
+            }
+
+            ptr++;
+        }
+
+        return Arrays.copyOf(asteroids, ++head);
+    }
+
 
     public int[] asteroidCollision(int[] asteroids) {
         if (asteroids == null || asteroids.length <= 1) {

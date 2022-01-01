@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 203**
+**Total Problem Solved: 209**
 * easy: 109
-* medium: 79
+* medium: 85
 * hard: 15
 
 
@@ -395,6 +395,20 @@ _143. Reorder List
 
 _260. Single Number III
 
+_139. Word Break
+
+~~1286. Iterator for Combination~~
+
+_62. Unique Paths
+
+_986. Interval List Intersections
+
+_1306. Jump Game III
+
+_152. Maximum Product Subarray
+
+_198. House Robber
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -479,3 +493,4 @@ _321. Create Maximum Number
 * 2020-10-27: 99-68-13 | sum: 180
 * 2021-05-05: 103-69-13 | sum: 185
 * 2021-11-06: 109-79-15 | sum: 203
+* 2022-01-01: 109-85-15 | sum: 209

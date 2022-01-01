@@ -3,8 +3,34 @@ package medium;
 import helper.ListNode;
 
 public class Q328OddEvenLinkedList {
-    //iter
     public static ListNode oddEvenList(ListNode head) {
+        ListNode oddSentinel = new ListNode();
+        ListNode evenSentinel = new ListNode();
+
+        boolean isOdd = true;
+        ListNode odds = oddSentinel;
+        ListNode evens = evenSentinel;
+        while(head != null) {
+            if(isOdd) {
+                odds.next = head;
+                odds = odds.next;
+            } else {
+                evens.next = head;
+                evens = evens.next;
+            }
+
+            isOdd = !isOdd;
+            head = head.next;
+        }
+
+        evens.next = null;
+        odds.next = evenSentinel.next;
+
+        return oddSentinel.next;
+    }
+
+    //iter
+    public static ListNode oddEvenListOld(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }

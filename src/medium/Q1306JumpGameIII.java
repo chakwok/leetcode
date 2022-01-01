@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
 
-public class Q1306JumpGameIII {
+    public class Q1306JumpGameIII {
     public boolean canReach(int[] arr, int start) {
         if (start >= 0 && start < arr.length && arr[start] >= 0) {
             if (arr[start] == 0) {
