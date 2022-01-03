@@ -220,6 +220,8 @@
 
 112. Path Sum
 
+563. Binary Tree Tilt
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -401,6 +403,10 @@
 152. Maximum Product Subarray
 
 198. House Robber
+
+213. House Robber II
+
+337. House Robber III
 
 **hard**
 
