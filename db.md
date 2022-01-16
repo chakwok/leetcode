@@ -222,6 +222,10 @@
 
 563. Binary Tree Tilt
 
+997. Find the Town Judge
+
+1010. Pairs of Songs With Total Durations Divisible by 60
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -408,6 +412,8 @@
 
 337. House Robber III
 
+849. Maximize Distance to Closest Person
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
@@ -441,6 +447,8 @@
 1707. Maximum XOR With an Element From Array
 
 321. Create Maximum Number
+
+1345. Jump Game IV
 
 
 =============== Log ===============
