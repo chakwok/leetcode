@@ -1,8 +1,8 @@
 # leetcode
-**Total Problem Solved: 209**
-* easy: 109
-* medium: 85
-* hard: 15
+**Total Problem Solved: 219**
+* easy: 113
+* medium: 90
+* hard: 16
 
 
 **easy**
@@ -227,6 +227,14 @@ _1720. Decode XORed Array
 
 _112. Path Sum
 
+_563. Binary Tree Tilt
+
+_997. Find the Town Judge
+
+_1010. Pairs of Songs With Total Durations Divisible by 60
+
+_290. Word Pattern
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -409,6 +417,16 @@ _152. Maximum Product Subarray
 
 _198. House Robber
 
+_213. House Robber II
+
+_337. House Robber III
+
+_849. Maximize Distance to Closest Person
+
+_253. Meeting Rooms II
+
+_48. Rotate Image
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -442,6 +460,8 @@ _124. Binary Tree Maximum Path Sum
 _1707. Maximum XOR With an Element From Array
 
 _321. Create Maximum Number
+
+_1345. Jump Game IV
 
 
 =============== Log ===============
@@ -494,3 +514,4 @@ _321. Create Maximum Number
 * 2021-05-05: 103-69-13 | sum: 185
 * 2021-11-06: 109-79-15 | sum: 203
 * 2022-01-01: 109-85-15 | sum: 209
+* 2022-01-17: 113-90-16 | sum: 219

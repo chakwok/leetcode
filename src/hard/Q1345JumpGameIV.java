@@ -67,6 +67,7 @@ public class Q1345JumpGameIV {
                         }
                     }
                 }
+                // might as well just clear the list, instead of using a set to mark visited values
                 visitedValue.add(arr[idx]);
             }
         }
