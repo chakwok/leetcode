@@ -227,6 +227,10 @@
 1010. Pairs of Songs With Total Durations Divisible by 60
 
 290. Word Pattern
+     
+20. Valid Parentheses
+
+14. Longest Common Prefix
 
 **medium**
 
@@ -419,6 +423,14 @@
 253. Meeting Rooms II
 
 48. Rotate Image
+
+11. Container With Most Water
+
+142. Linked List Cycle II
+
+1003. Check If Word Is Valid After Substitutions
+
+1291. Sequential Digits
 
 **hard**
 
