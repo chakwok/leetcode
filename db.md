@@ -232,6 +232,10 @@
 
 14. Longest Common Prefix
 
+520. Detect Capital
+
+941. Valid Mountain Array
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -431,6 +435,8 @@
 1003. Check If Word Is Valid After Substitutions
 
 1291. Sequential Digits
+
+134. Gas Station
 
 **hard**
 
