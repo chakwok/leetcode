@@ -34,7 +34,7 @@
 
 167. Two Sum II - Input array is sorted
 
-~~653. Two Sum IV - Input is a BST~~
+653. Two Sum IV - Input is a BST
 
 283. Move Zeroes
 
@@ -235,6 +235,8 @@
 520. Detect Capital
 
 941. Valid Mountain Array
+
+1099. Two Sum Less Than K
 
 **medium**
 
@@ -437,6 +439,10 @@
 1291. Sequential Digits
 
 134. Gas Station
+
+438. Find All Anagrams in a String
+
+567. Permutation in String
 
 **hard**
 

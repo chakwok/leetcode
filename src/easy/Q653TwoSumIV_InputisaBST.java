@@ -1,8 +1,32 @@
 package easy;
 
+import helper.TreeNode;
+
+import java.util.HashSet;
+
 public class Q653TwoSumIV_InputisaBST {
+    HashSet<Integer> set = new HashSet<>();
+    public boolean findTarget(TreeNode root, int k) {
+        if(root == null) {
+            return false;
+        }
+        if(set.contains(k - root.val)) {
+            return true;
+        }
+        set.add(root.val);
+
+
+        if(findTarget(root.left, k)) {
+            return true;
+        }
+        if(findTarget(root.right, k)) {
+            return true;
+        }
+        return false;
+    }
+
     //O(nlogn)
-    public static boolean findTarget(TreeNode root, int k) {
+    public static boolean findTargetWrong(TreeNode root, int k) {
         if(root == null) {
             return false;
         } else {
@@ -41,22 +65,8 @@ public class Q653TwoSumIV_InputisaBST {
     }
 
 
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-
-        public static TreeNode[] asList(int... xs) {
-            TreeNode[] toReturn = new TreeNode[xs.length];
-            for(int i = 0; i < xs.length; i++) {
-                toReturn[i] = new TreeNode(xs[i]);
-            }
-            return toReturn;
-        }
-    }
-
     public static void main(String[] args) {
+        var app = new Q653TwoSumIV_InputisaBST();
         TreeNode[] nodeList= TreeNode.asList(5,3,6,2,4,0,7);
         nodeList[0].left = nodeList[1];
         nodeList[0].right = nodeList[2];
@@ -64,7 +74,7 @@ public class Q653TwoSumIV_InputisaBST {
         nodeList[1].right = nodeList[4];
         nodeList[2].right = nodeList[6];
 
-        boolean ans = findTarget(nodeList[0], 9);
+        boolean ans = app.findTarget(nodeList[0], 9);
         System.out.println(ans);
     }
 }
