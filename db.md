@@ -238,6 +238,8 @@
 
 1099. Two Sum Less Than K
 
+389. Find the Difference
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -443,6 +445,10 @@
 438. Find All Anagrams in a String
 
 567. Permutation in String
+     
+1101. The Earliest Moment When Everyone Become Friends
+
+547. Number of Provinces
 
 **hard**
 
