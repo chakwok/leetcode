@@ -450,6 +450,10 @@
 
 547. Number of Provinces
 
+361. Bomb Enemy
+
+1288. Remove Covered Intervals
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
@@ -538,3 +542,4 @@
 * 2021-11-06: 109-79-15 | sum: 203
 * 2022-01-01: 109-85-15 | sum: 209
 * 2022-01-17: 113-90-16 | sum: 219
+* 2022-02-21: 120-101-16 | sum: 237

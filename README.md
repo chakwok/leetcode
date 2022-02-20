@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 219**
-* easy: 113
-* medium: 90
+**Total Problem Solved: 237**
+* easy: 120
+* medium: 101
 * hard: 16
 
 
@@ -41,7 +41,7 @@ _66. Plus One
 
 _167. Two Sum II - Input array is sorted
 
-~~653. Two Sum IV - Input is a BST~~
+_653. Two Sum IV - Input is a BST
 
 _283. Move Zeroes
 
@@ -234,6 +234,18 @@ _997. Find the Town Judge
 _1010. Pairs of Songs With Total Durations Divisible by 60
 
 _290. Word Pattern
+     
+_20. Valid Parentheses
+
+_14. Longest Common Prefix
+
+_520. Detect Capital
+
+_941. Valid Mountain Array
+
+_1099. Two Sum Less Than K
+
+_389. Find the Difference
 
 **medium**
 
@@ -427,6 +439,28 @@ _253. Meeting Rooms II
 
 _48. Rotate Image
 
+_11. Container With Most Water
+
+_142. Linked List Cycle II
+
+_1003. Check If Word Is Valid After Substitutions
+
+_1291. Sequential Digits
+
+_134. Gas Station
+
+_438. Find All Anagrams in a String
+
+_567. Permutation in String
+     
+_1101. The Earliest Moment When Everyone Become Friends
+
+_547. Number of Provinces
+
+_361. Bomb Enemy
+
+_1288. Remove Covered Intervals
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -515,3 +549,4 @@ _1345. Jump Game IV
 * 2021-11-06: 109-79-15 | sum: 203
 * 2022-01-01: 109-85-15 | sum: 209
 * 2022-01-17: 113-90-16 | sum: 219
+* 2022-02-21: 120-101-16 | sum: 237
