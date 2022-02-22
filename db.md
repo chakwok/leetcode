@@ -240,6 +240,8 @@
 
 389. Find the Difference
 
+171. Excel Sheet Column Number
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
