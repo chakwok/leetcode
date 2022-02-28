@@ -5,6 +5,67 @@ import helper.ListNode;
 import java.util.ArrayList;
 
 public class Q148SortList {
+
+
+    public static ListNode sortListNew(ListNode head) {
+        if(head == null) {
+            return null;
+        }
+        ListNode node = head;
+        while(node.next!= null) {
+            node = node.next;
+        }
+        return sortLists(head, node);
+    }
+
+    private static ListNode sortLists(ListNode head, ListNode tail) {
+        if(head == tail) {
+            return head;
+        }
+
+        ListNode fast = head;
+        ListNode slow = head;
+
+        boolean isEven = false;
+        while(fast != tail) {
+            fast = fast.next;
+            if(isEven) {
+                slow = slow.next;
+            }
+            isEven = !isEven;
+        }
+
+        ListNode secondStart = slow.next;
+        slow.next = null;
+        ListNode left = sortLists(head, slow);
+        ListNode right = sortLists(secondStart, tail);
+
+        return mergeLists(left, right);
+    }
+
+    private static ListNode mergeLists(ListNode head, ListNode tail) {
+        ListNode out = new ListNode();
+        ListNode curr = out;
+        while(head != null && tail != null) {
+            if(head.val <= tail.val) {
+                curr.next = head;
+                head = head.next;
+            } else {
+                curr.next = tail;
+                tail = tail.next;
+            }
+            curr = curr.next;
+        }
+        if(head != null) {
+            curr.next = head;
+        } else if(tail != null) {
+            curr.next = tail;
+        }
+
+        return out.next;
+    }
+
+
     //mergeSort
     public static ListNode sortList(ListNode head) {
         return mergeSort(head);
@@ -124,7 +185,9 @@ public class Q148SortList {
     }
 
     public static void main(String[] args) {
-        System.out.println(sortList(ListNode.of(4, 2, 1, 3)));
+        System.out.println(sortListNew(ListNode.of(4, 2, 1, 3)));
+        System.out.println(sortListNew(ListNode.of(-1, 5, 3, 4,0)));
+
     }
 
 }

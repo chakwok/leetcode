@@ -456,6 +456,8 @@
 
 1288. Remove Covered Intervals
 
+189. Rotate Array
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
