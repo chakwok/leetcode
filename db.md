@@ -457,6 +457,8 @@
 1288. Remove Covered Intervals
 
 189. Rotate Array
+     
+1762. Buildings With an Ocean View
 
 **hard**
 
@@ -493,6 +495,8 @@
 321. Create Maximum Number
 
 1345. Jump Game IV
+
+352. Data Stream as Disjoint Intervals
 
 
 =============== Log ===============
