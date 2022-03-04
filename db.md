@@ -460,6 +460,10 @@
      
 1762. Buildings With an Ocean View
 
+921. Minimum Add to Make Parentheses Valid
+
+1963. Minimum Number of Swaps to Make the String Balanced
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
