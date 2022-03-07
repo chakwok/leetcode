@@ -242,6 +242,10 @@
 
 171. Excel Sheet Column Number
 
+125. Valid Palindrome
+
+346. Moving Average from Data Stream
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -464,6 +468,26 @@
 
 1963. Minimum Number of Swaps to Make the String Balanced
 
+71. Simplify Path
+
+80. Remove Duplicates from Sorted Array II
+
+199. Binary Tree Right Side View
+
+339. Nested List Weight Sum
+
+921. Minimum Add to Make Parentheses Valid
+     
+236. Lowest Common Ancestor of a Binary Tree
+
+721. Accounts Merge
+
+314. Binary Tree Vertical Order Traversal
+
+56. Merge Intervals
+
+426. Convert Binary Search Tree to Sorted Doubly Linked List
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
@@ -555,3 +579,4 @@
 * 2022-01-01: 109-85-15 | sum: 209
 * 2022-01-17: 113-90-16 | sum: 219
 * 2022-02-21: 120-101-16 | sum: 237
+* 2022-03-08: 123-115-17 | sum: 255

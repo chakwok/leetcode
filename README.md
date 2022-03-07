@@ -1,8 +1,8 @@
 # leetcode
-**Total Problem Solved: 237**
-* easy: 120
-* medium: 101
-* hard: 16
+**Total Problem Solved: 255**
+* easy: 123
+* medium: 115
+* hard: 17
 
 
 **easy**
@@ -247,6 +247,12 @@ _1099. Two Sum Less Than K
 
 _389. Find the Difference
 
+_171. Excel Sheet Column Number
+
+_125. Valid Palindrome
+
+_346. Moving Average from Data Stream
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -461,6 +467,34 @@ _361. Bomb Enemy
 
 _1288. Remove Covered Intervals
 
+_189. Rotate Array
+     
+_1762. Buildings With an Ocean View
+
+_921. Minimum Add to Make Parentheses Valid
+
+_1963. Minimum Number of Swaps to Make the String Balanced
+
+_71. Simplify Path
+
+_80. Remove Duplicates from Sorted Array II
+
+_199. Binary Tree Right Side View
+
+_339. Nested List Weight Sum
+
+_921. Minimum Add to Make Parentheses Valid
+     
+_236. Lowest Common Ancestor of a Binary Tree
+
+_721. Accounts Merge
+
+_314. Binary Tree Vertical Order Traversal
+
+_56. Merge Intervals
+
+_426. Convert Binary Search Tree to Sorted Doubly Linked List
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -496,6 +530,8 @@ _1707. Maximum XOR With an Element From Array
 _321. Create Maximum Number
 
 _1345. Jump Game IV
+
+_352. Data Stream as Disjoint Intervals
 
 
 =============== Log ===============
@@ -550,3 +586,4 @@ _1345. Jump Game IV
 * 2022-01-01: 109-85-15 | sum: 209
 * 2022-01-17: 113-90-16 | sum: 219
 * 2022-02-21: 120-101-16 | sum: 237
+* 2022-03-08: 123-115-17 | sum: 255
