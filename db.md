@@ -246,6 +246,10 @@
 
 346. Moving Average from Data Stream
 
+766. Toeplitz Matrix
+
+408. Valid Word Abbreviation
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -487,6 +491,14 @@
 56. Merge Intervals
 
 426. Convert Binary Search Tree to Sorted Doubly Linked List
+
+1650. Lowest Common Ancestor of a Binary Tree III
+
+1011. Capacity To Ship Packages Within D Days
+
+31. Next Permutation
+
+
 
 **hard**
 

@@ -2,68 +2,50 @@ package easy;
 
 import java.util.Arrays;
 
-public class Q977SquaresofaSortedArray {
-    public int[] sortedSquares(int[] A) {
-        if (A == null || A.length == 0) {
-            return A;
-        }
-
-        int splitIndex = 0;
-
-        for(int i = 0; i < A.length; i++) {
-            if(A[i] < 0) {
-                A[i] = -A[i];
-            } else {
-                //first non-negative element
-                splitIndex = i;
-                break;
-            }
-        }
-
-        return mergeAndSquare(A, splitIndex);
-    }
-
-    public int[] mergeAndSquare(int[] A, int split) {
-        int[] result = new int[A.length];
-        int filled = 0;
-
-        int splitForward = split;
-        int splitBackward = split - 1;
-
-        while(splitForward < A.length && splitBackward >= 0) {
-            if(A[splitForward] < A[splitBackward]) {
-                result[filled] = (int) Math.pow(A[splitForward], 2);
-                splitForward++;
-            } else {
-                result[filled] = (int) Math.pow(A[splitBackward], 2);
-                splitBackward--;
-            }
-            filled++;
-        }
-
-        if(splitForward == A.length) {
-            while(splitBackward >= 0) {
-                result[filled] = (int) Math.pow(A[splitBackward], 2);
-                splitBackward--;
-                filled++;
-            }
-        } else if(splitBackward == -1) {
-            while(splitForward < A.length) {
-                result[filled] = (int) Math.pow(A[splitForward], 2);
-                splitForward++;
-                filled++;
-            }
-        } else {
-            throw new RuntimeException("this is weird");
-        }
-
-        return result;
-    }
-
+public class Q977SquaresofaSortedArray{
     public static void main(String[] args) {
-        Q977SquaresofaSortedArray me = new Q977SquaresofaSortedArray();
-        int[] ans = me.sortedSquares(new int[]{-4,-1,0,3,10});
-        System.out.println(Arrays.toString(ans));
+        var app = new Q977SquaresofaSortedArray();
+        System.out.println(Arrays.toString(app.sortedSquares(new int[]{-1})));
+    }
 
+    public int[] sortedSquares(int[] nums) {
+        int n = nums.length;
+        int[] out = new int[n];
+
+        int firstPositive = -1;
+        for(int i = 0; i < n; i++) {
+            if(firstPositive == -1 && nums[i] >= 0) {
+                firstPositive = i;
+            }
+            nums[i] = (int) Math.pow(nums[i], 2.0);
+        }
+
+        if(firstPositive == -1) {
+            for(int i = 0; i < n ; i++) {
+                out[i] = nums[n - 1 - i];
+            }
+            return out;
+        }
+
+        int front = firstPositive;
+        int back = firstPositive - 1;
+        int i = 0;
+        while(front < n && back >= 0) {
+            if(nums[front] > nums[back]) {
+                out[i++] = nums[back--];
+            } else {
+                out[i++] = nums[front++];
+            }
+        }
+
+        while(back >= 0) {
+            out[i++] = nums[back--];
+        }
+
+        while(front < n) {
+            out[i++] = nums[front++];
+        }
+
+       return out;
     }
 }
