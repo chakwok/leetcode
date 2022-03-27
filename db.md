@@ -250,6 +250,12 @@
 
 408. Valid Word Abbreviation
 
+680. Valid Palindrome II
+
+141. Linked List Cycle
+
+389. Find the Difference
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -498,7 +504,9 @@
 
 31. Next Permutation
 
+1249. Minimum Remove to Make Valid Parentheses
 
+718. Maximum Length of Repeated Subarray
 
 **hard**
 
