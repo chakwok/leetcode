@@ -508,6 +508,8 @@
 
 718. Maximum Length of Repeated Subarray
 
+1087. Brace Expansion
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
