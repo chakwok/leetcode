@@ -510,6 +510,8 @@
 
 1087. Brace Expansion
 
+1721. Swapping Nodes in a Linked List
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
