@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 255**
-* easy: 123
-* medium: 115
+**Total Problem Solved: 268**
+* easy: 129
+* medium: 122
 * hard: 17
 
 
@@ -253,6 +253,18 @@ _125. Valid Palindrome
 
 _346. Moving Average from Data Stream
 
+_766. Toeplitz Matrix
+
+_408. Valid Word Abbreviation
+
+_680. Valid Palindrome II
+
+_141. Linked List Cycle
+
+_389. Find the Difference
+
+_703. Kth Largest Element in a Stream
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -495,6 +507,20 @@ _56. Merge Intervals
 
 _426. Convert Binary Search Tree to Sorted Doubly Linked List
 
+_1650. Lowest Common Ancestor of a Binary Tree III
+
+_1011. Capacity To Ship Packages Within D Days
+
+_31. Next Permutation
+
+_1249. Minimum Remove to Make Valid Parentheses
+
+_718. Maximum Length of Repeated Subarray
+
+_1087. Brace Expansion
+
+_1721. Swapping Nodes in a Linked List
+
 **hard**
 
 _154. Find Minimum in Rotated Sorted Array II
@@ -587,3 +613,4 @@ _352. Data Stream as Disjoint Intervals
 * 2022-01-17: 113-90-16 | sum: 219
 * 2022-02-21: 120-101-16 | sum: 237
 * 2022-03-08: 123-115-17 | sum: 255
+* 2022-04-09: 129-122-17 | sum: 268

@@ -256,6 +256,8 @@
 
 389. Find the Difference
 
+703. Kth Largest Element in a Stream
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -604,3 +606,4 @@
 * 2022-01-17: 113-90-16 | sum: 219
 * 2022-02-21: 120-101-16 | sum: 237
 * 2022-03-08: 123-115-17 | sum: 255
+* 2022-04-09: 129-122-17 | sum: 268
