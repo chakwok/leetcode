@@ -258,6 +258,8 @@
 
 703. Kth Largest Element in a Stream
 
+682. Baseball Game
+
 **medium**
 
 807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -513,6 +515,10 @@
 1087. Brace Expansion
 
 1721. Swapping Nodes in a Linked List
+      
+289. Game of Life
+
+59. Spiral Matrix II
 
 **hard**
 
