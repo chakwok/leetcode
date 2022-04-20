@@ -520,6 +520,12 @@
 
 59. Spiral Matrix II
 
+538. Convert BST to Greater Tree
+
+99. Recover Binary Search Tree
+
+230. Kth Smallest Element in a BST
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II

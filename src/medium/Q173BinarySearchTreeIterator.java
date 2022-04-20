@@ -3,6 +3,7 @@ package medium;
 import helper.TreeNode;
 
 import java.util.LinkedList;
+import java.util.Stack;
 
 public class Q173BinarySearchTreeIterator {
     LinkedList<Integer> lst;
@@ -30,6 +31,32 @@ public class Q173BinarySearchTreeIterator {
     public boolean hasNext() {
         return lst.size() > 0;
     }
+
+    class BSTIterator {
+        Stack<TreeNode> stack;
+        public BSTIterator(TreeNode root) {
+            stack = new Stack<>();
+            addSubTreeLeft(root);
+        }
+
+        private void addSubTreeLeft(TreeNode node) {
+            while(node != null) {
+                stack.push(node);
+                node = node.left;
+            }
+        }
+
+        public int next() {
+            TreeNode pop = stack.pop();
+            addSubTreeLeft(pop.right);
+            return pop.val;
+        }
+
+        public boolean hasNext() {
+            return stack.size() > 0;
+        }
+    }
+
 }
 
 //BST
