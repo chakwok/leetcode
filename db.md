@@ -526,6 +526,8 @@
 
 230. Kth Smallest Element in a BST
 
+669. Trim a Binary Search Tree
+
 **hard**
 
 154. Find Minimum in Rotated Sorted Array II
@@ -619,3 +621,4 @@
 * 2022-02-21: 120-101-16 | sum: 237
 * 2022-03-08: 123-115-17 | sum: 255
 * 2022-04-09: 129-122-17 | sum: 268
+* 2022-04-21: 130-128-17 | sum: 275

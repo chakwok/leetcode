@@ -1,7 +1,7 @@
 # leetcode
-**Total Problem Solved: 268**
-* easy: 129
-* medium: 122
+**Total Problem Solved: 275**
+* easy: 130
+* medium: 128
 * hard: 17
 
 
@@ -265,6 +265,8 @@ _389. Find the Difference
 
 _703. Kth Largest Element in a Stream
 
+_682. Baseball Game
+
 **medium**
 
 _807. Max Increase to Keep City Skyline: Your runtime beats 25.32 % of java submissions.
@@ -520,6 +522,18 @@ _718. Maximum Length of Repeated Subarray
 _1087. Brace Expansion
 
 _1721. Swapping Nodes in a Linked List
+      
+_289. Game of Life
+
+_59. Spiral Matrix II
+
+_538. Convert BST to Greater Tree
+
+_99. Recover Binary Search Tree
+
+_230. Kth Smallest Element in a BST
+
+_669. Trim a Binary Search Tree
 
 **hard**
 
@@ -614,3 +628,4 @@ _352. Data Stream as Disjoint Intervals
 * 2022-02-21: 120-101-16 | sum: 237
 * 2022-03-08: 123-115-17 | sum: 255
 * 2022-04-09: 129-122-17 | sum: 268
+* 2022-04-21: 130-128-17 | sum: 275
