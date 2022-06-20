@@ -8,7 +8,7 @@
 
     <properties>
         <maven.compiler.release>14</maven.compiler.release>
-        <kotlin.version>1.5.10</kotlin.version>
+        <kotlin.version>1.6.0</kotlin.version>
     </properties>
 
     <dependencies>
